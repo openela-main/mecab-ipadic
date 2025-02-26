@@ -16,7 +16,7 @@
 
 Name:		%{?scl_prefix}mecab-ipadic
 Version:	%{majorver}.%{date}
-Release:	16%{?dist}
+Release:	17%{?dist}
 Summary:	IPA dictionary for MeCab
 
 Group:		Applications/Text
@@ -123,6 +123,10 @@ fi
 %{_libdir}/mecab/dic/ipadic-EUCJP/
 
 %changelog
+* Wed Feb 12 2025 Lukas Javorsky <ljavorsk@redhat.com> - 2.7.0.20070801-17
+- Bump the release
+- Resolves: RHEL-24525
+
 * Wed Jul 18 2018 Honza Horak <hhorak@redhat.com> - 2.7.0.20070801-16
 - Rename the LICENSE.fedora to LICENSE.rhel
 
